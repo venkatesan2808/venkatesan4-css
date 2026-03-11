@@ -1,0 +1,40 @@
+.externalcss{
+    border: 3px solid red;
+    background-color: coral;
+    margin: 50px;
+    padding: 30px;
+}
+#v{
+    border: 3px dotted;
+            display: inline-block;
+            color: rgb(42, 165, 65);
+            background-color: rgb(51, 5, 150);
+            
+}
+#par{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(1, 10, 13);
+
+}
+.img1{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    z-index: 1;
+     box-shadow:10px 10px 10px black;
+    display: inline;
+}
+.img2{
+    width: 100px;
+    height: 60px;
+    position: relative;
+    z-index: 2;
+    left: 50px;
+    box-shadow:10px 10px 10px black;
+    display: inline;
+}
+.paraa{
+    font-weight: bold;
+    font-size: larger;
+    
+}
